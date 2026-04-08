@@ -1,0 +1,37 @@
+.light {
+  --bg: #ffffff;
+  --text: #333333;
+  --text-h: #000000;
+  --accent: #61dafb;
+  --accent-bg: rgba(97, 218, 251, 0.1);
+  --accent-border: rgba(97, 218, 251, 0.3);
+  --border: #cccccc;
+  --social-bg: rgba(0, 0, 0, 0.05);
+}
+
+.dark {
+  --bg: #1e1e1e;
+  --text: #f0f0f0;
+  --text-h: #ffffff;
+  --accent: #61dafb;
+  --accent-bg: rgba(97, 218, 251, 0.1);
+  --accent-border: rgba(97, 218, 251, 0.3);
+  --border: #333333;
+  --social-bg: rgba(255, 255, 255, 0.1);
+}
+
+.appdiv {
+  background-color: var(--bg); 
+  color: var(--text);          
+  min-height: 100vh;          
+  transition: all 0.3s ease;    
+}
+
+.with-loading-button {
+  border-color: var(--border);
+  background-color: var(--bg); 
+  color: var(--text);    
+  accent-color: var(--accent);  
+  margin: 10px;
+  padding: 10px 20px;
+}
